@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .topnav{
+            overflow:hidden;
+            background-color: darkslateblue;
+        }
+
+        .topnav a{
+            float:right;
+            color: cornsilk;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover{
+            color: brown;
+            font-size: 20px;
+        }
+
+        .topnav a.active{
+            color:lightgreen;
+            font-size: 20px;
+        }
+
+        body{
+            margin: 0px;
+            background-color: rgb(97, 210, 193);
+        }
+
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+            text-transform: capitalize;
+          }
+
+        .carousel-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+          }
+
+
+        .myslides {
+            display: none;
+            max-height: 100%;
+            max-width: 100%;
+          }
+
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html"> Home</a>
+        <a href="About.html">About</a>
+        <a href="contact.html">Contact me</a>
+        <a href="gallery.html">Gallery</a>
+    </div>
+
+    <h1>Things <b>I</b> like</h1>
+
+    <div class="carousel-container">
+        <img class="myslides" src="pic1.jpeg" width="100%" height="500px" border="3" alt="Slide 1">
+        <img class="myslides" src="pic2.jpeg" width="100%" height="500px" border="3" alt="Slide 2">
+        <img class="myslides" src="pic3.jpeg" width="100%" height="500px" border="3" alt="Slide 3">
+      </div>
+</body>
+</html>
